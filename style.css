@@ -1,0 +1,109 @@
+main {
+    display: grid;
+    justify-content: center;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    width: 1321px;
+    height: 646px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+.banner-tittle {
+    width: 531px;
+    height: 424px;
+    padding: 149px;
+}
+
+.banner-tittle h1 {
+    font-size: 70px;
+    width: 700;
+}
+
+.banner-tittle p {
+    font-size: 16px;
+    width: 400px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    width: 187px;
+    margin-top: 30px;
+    padding: 16px;
+    background-color: red;
+    font-size: 20px;
+    font: 400;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.img {
+    width: 581px;
+    height: 613px;
+    margin-right: 67px;
+    margin-bottom: 17px;
+}
+
+.sell {
+    display: flex;
+    gap: 24px;
+    margin-top: 104px;
+}
+
+.match {
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.match a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+#red {
+    background-color: red;
+    color: white;
+}
+
+.match a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.player {
+    height: 362px;
+    width: 312px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.text {
+    padding: 20px;
+}
