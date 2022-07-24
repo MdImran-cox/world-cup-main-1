@@ -50,6 +50,10 @@ main {
     border-radius: 5px;
 }
 
+.flag {
+    display: flex;
+}
+
 .img {
     width: 581px;
     height: 613px;
@@ -105,14 +109,14 @@ main {
 }
 
 .player {
-    height: 362px;
+    height: 242px;
     width: 312px;
     border: 1px solid gray;
     border-radius: 10px;
 }
 
 .text {
-    padding: 20px;
+    text-align: center;
     font-size: 16px;
 }
 
@@ -127,9 +131,11 @@ main {
     font-weight: 500;
 }
 
-.text img {
-    width: 16px;
-    height: 16px;
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 53px;
 }
 
 .foter {
